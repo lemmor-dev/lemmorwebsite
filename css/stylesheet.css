@@ -1,0 +1,177 @@
+@keyframes cloud-top{
+    0%{
+        opacity: 0;
+        transform: translate(95vw);
+    
+    }
+    100%{
+        opacity: 1;
+        transform: translate(-95vw) ;
+    }    
+}
+@keyframes cloud-bottom{
+    0%{
+        opacity: 0;
+        transform: translate(-95vw);
+    
+    }
+    100%{
+        opacity: 1;
+        transform: translate(95vw) ;
+    }    
+}
+
+@font-face{
+    src: url(./fonts/Merriweather-Regular.ttf);
+    font-family: Merriweatther;
+    
+}
+
+@font-face{
+    src: url(./fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(./fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+
+
+
+
+
+
+
+
+.active{
+    background-color: rebeccapurple;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: indigo; 
+    border: 0px;
+
+}
+.cloud1{
+    position: absolute;
+    top: 70px;
+    right: 20%;
+    clear: both;
+    width: 16%;
+    animation: cloud-top 14s infinite linear ;
+    
+    
+}
+.cloud2{
+    position: absolute;
+    top: 350px ;
+    left: 19%;
+    clear: both;
+    width: 16%;
+    animation: cloud-bottom 14s infinite linear;
+}
+
+
+h1{
+    text-align: center;  
+    color: black;
+    margin-top: 18%;
+    font-family: Sacramento ;
+    font-size: 90px;
+    
+}
+h2{
+    text-align: center;  
+    color: black;
+    font-family: sans-serif;
+}
+.header-sub{
+    font-family: Montserrat ;
+    font-size: 3rem;
+    color: rgb(205, 233, 245);
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.mountain
+{
+     width: 95vh;
+     margin-top: 9%;
+     margin-left: 27%;
+}
+p{
+    text-align: center;   
+    color: black;
+    font-family: sans-serif;
+}
+.profile{
+    margin-top: 9%;
+    margin-left: 10.5%;
+    border-radius: 50%;
+    width: 20%;
+    position: relative;
+    left: 29%;
+    
+}
+.profile{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    
+    
+}
+#skills{
+    margin-top: 7%;
+    text-align: center;  
+    color: black;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(152, 217, 243);
+    position: sticky;
+    top: 0;
+}
+
+#footer{
+   background-color: rgb(152, 217, 243) ;
+   padding: 2%;
+}
+#follow{
+    text-align: left
+   
+    
+}
+#contact{
+    text-align: left
+   
+    
+}
+h3{
+    font-size: 200px;
+    font-family: sacramento;
+    margin-top: 200px;
+    text-align: center;
+}
