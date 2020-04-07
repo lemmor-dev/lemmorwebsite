@@ -1,0 +1,78 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+.content{
+    background-color: black;
+    padding: 4%;
+    margin: 60px 370px;
+    top: 0%;
+    bottom: 0%;
+    padding-bottom: 3%;
+}
+.motor{
+    float: none;
+    padding: 0%;
+    margin: 0%;
+}
+.motorbike{
+    color: white;
+    top: 0px;
+    font-family: sans-serif;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 0rem;
+
+}
+.generate1{
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+    text-decoration: none;
+}
+.generate2{
+    color: white;
+    font-size: 16px;
+    padding: 80px;
+    text-decoration: none;
+}
+.allgenerate{
+    padding: 10px;   
+    margin-top: 0px; 
+}
+.buttonselector{
+    padding: 0px;  
+    margin-top: 10px; 
+    text-decoration: none;
+}
+.gen{
+    border-radius: 10%;
+    background-color: grey;
+    color: black;
+    padding: 2% 5%;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+#color{
+    border-radius: 10%;
+    border: none;
+    background-color: grey;
+    padding: 2% 6%;
+    font-size: 16;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+.down{
+    margin-left: 245px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.showw{
+    padding: 4% 5%;
+    border-radius: 10%;
+}
+.resett{
+    padding: 4% 5%;
+    border-radius: 10%;
+}
